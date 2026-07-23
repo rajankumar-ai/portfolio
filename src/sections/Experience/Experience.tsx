@@ -1,8 +1,10 @@
-import { motion } from "framer-motion";
 import Section from "../../components/layout/Section";
 import SectionHeading from "../../components/ui/SectionHeading";
+import MotionSection from "../../components/motion/MotionSection";
+
+import { fadeUp } from "../../animations/fade";
 import { EXPERIENCES } from "../../data/experience";
-import { fadeUp } from "../../constants/animation";
+
 import TimelineItem from "./TimelineItem";
 
 function Experience() {
@@ -14,21 +16,17 @@ function Experience() {
       />
 
       <div className="relative mx-auto mt-16 max-w-4xl">
-        <div className="absolute left-2 top-0 h-full w-0.5 bg-slate-700"></div>
+        <div className="absolute left-2 top-0 h-full w-0.5 bg-slate-700" />
 
         <div className="space-y-10">
           {EXPERIENCES.map((item, index) => (
-            <motion.div
+            <MotionSection
               key={`${item.company}-${item.duration}`}
-              {...fadeUp}
-              transition={{
-                ...fadeUp.transition,
-                delay: index * 0.15,
-              }}
-              viewport={{ once: true }}
+              variants={fadeUp}
+              delay={index * 0.15}
             >
               <TimelineItem item={item} />
-            </motion.div>
+            </MotionSection>
           ))}
         </div>
       </div>

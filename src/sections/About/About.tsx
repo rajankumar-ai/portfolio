@@ -1,25 +1,24 @@
-import { motion } from "framer-motion";
 import Container from "../../components/ui/Container";
+import MotionSection from "../../components/motion/MotionSection";
+import { fadeUp } from "../../animations/fade";
+
 import AboutContent from "./AboutContent";
 import AboutStats from "./AboutStats";
 
 function About() {
   return (
     <section
-      id="about"
-      className="bg-slate-950 py-24"
-    >
+        id="about"
+        className="scroll-mt-20 bg-slate-950 py-24"
+        >
       <Container>
-        <motion.div
-          initial={{ opacity: 0, y: 60 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
+        <MotionSection
+          variants={fadeUp}
           className="grid gap-16 lg:grid-cols-2"
         >
           <AboutContent />
           <AboutStats />
-        </motion.div>
+        </MotionSection>
       </Container>
     </section>
   );

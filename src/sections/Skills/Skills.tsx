@@ -1,6 +1,8 @@
-import { motion } from "framer-motion";
 import Container from "../../components/ui/Container";
 import SectionHeading from "../../components/ui/SectionHeading";
+import MotionSection from "../../components/motion/MotionSection";
+import { fadeUp } from "../../animations/fade";
+
 import { SKILLS } from "../../data/skills";
 import SkillCard from "./SkillCard";
 
@@ -18,22 +20,17 @@ function Skills() {
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {SKILLS.map((skill, index) => (
-            <motion.div
+            <MotionSection
               key={skill.name}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{
-                duration: 0.5,
-                delay: index * 0.08,
-              }}
-              viewport={{ once: true }}
+              variants={fadeUp}
+              delay={index * 0.08}
             >
               <SkillCard
                 title={skill.name}
                 level={skill.level}
                 Icon={skill.icon}
               />
-            </motion.div>
+            </MotionSection>
           ))}
         </div>
       </Container>

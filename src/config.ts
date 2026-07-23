@@ -19,7 +19,7 @@ export const SITE_CONFIG = {
   resume: "/resume.pdf",
 
   navigation: [
-    { label: "Home", href: "#" },
+    { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },

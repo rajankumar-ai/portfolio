@@ -1,6 +1,8 @@
-import { motion } from "framer-motion";
 import Container from "../../components/ui/Container";
 import SectionHeading from "../../components/ui/SectionHeading";
+import MotionSection from "../../components/motion/MotionSection";
+import { fadeUp } from "../../animations/fade";
+
 import { PROJECTS } from "../../data/projects";
 import ProjectCard from "./ProjectCard";
 
@@ -18,21 +20,13 @@ function Projects() {
 
         <div className="mt-16 grid gap-8 lg:grid-cols-3">
           {PROJECTS.map((project, index) => (
-            <motion.div
+            <MotionSection
               key={project.title}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{
-                opacity: 1,
-                y: 0,
-              }}
-              transition={{
-                duration: 0.5,
-                delay: index * 0.1,
-              }}
-              viewport={{ once: true }}
+              variants={fadeUp}
+              delay={index * 0.1}
             >
               <ProjectCard {...project} />
-            </motion.div>
+            </MotionSection>
           ))}
         </div>
       </Container>
