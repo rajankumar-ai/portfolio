@@ -1,5 +1,6 @@
 import type { IconType } from "react-icons";
 
+
 export interface Skill {
   name: string;
   level: string;
@@ -21,6 +22,8 @@ export interface Experience {
   duration: string;
   description: string;
 }
+
+
 
 export interface Service {
   title: string;
