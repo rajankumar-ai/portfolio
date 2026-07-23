@@ -3,11 +3,12 @@ export const SITE_CONFIG = {
   title: "AI-Assisted Full-Stack Developer",
 
   hero: {
-    greeting: "Hello, I'm",
-    heading: "AI-Assisted Full-Stack Developer",
-    description:
-      "I build modern websites, scalable web applications, automation tools and AI-powered digital experiences.",
-  },
+  greeting: "Hello, I'm",
+  name: "Rajan Kumar",
+  role: "AI-Assisted Full-Stack Developer",
+  description:
+    "I build scalable web applications, AI-powered solutions, automation tools, and modern digital experiences that help businesses grow.",
+},
 
   email: "authorsiterajan@gmail.com",
   location: "Haryana, India",
