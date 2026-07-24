@@ -1,14 +1,17 @@
 export const PROJECTS = [
   {
-    title: "AI Portfolio Website",
+    title: "Developer Portfolio",
+
     description:
-      "A modern developer portfolio built using React, TypeScript, Tailwind CSS and Framer Motion.",
+      "A modern, responsive portfolio website showcasing professional experience, technical skills, and projects. Built with React, TypeScript, Tailwind CSS, Framer Motion, and optimized for performance and recruiter-friendly presentation.",
 
     technologies: [
       "React",
       "TypeScript",
-      "Tailwind",
+      "Vite",
+      "Tailwind CSS",
       "Framer Motion",
+      "Netlify",
     ],
 
     image: "/projects/project1.png",
@@ -19,15 +22,16 @@ export const PROJECTS = [
   },
 
   {
-    title: "PixelRoot Store",
+    title: "Pixel Root Store",
 
     description:
-      "Business website offering digital marketing, web development and IT solutions.",
+      "Business website providing digital marketing, website development, software development, branding, and IT solutions with a modern responsive interface.",
 
     technologies: [
       "React",
       "Node.js",
-      "Tailwind",
+      "TypeScript",
+      "Tailwind CSS",
     ],
 
     image: "/projects/project2.png",
@@ -38,15 +42,17 @@ export const PROJECTS = [
   },
 
   {
-    title: "Email Automation System",
+    title: "Bulk Email Automation System",
 
     description:
-      "Bulk email platform supporting SMTP rotation, Gmail API integration and campaign management.",
+      "Desktop application for managing high-volume email campaigns with SMTP rotation, Gmail API integration, scheduling, personalization, and campaign management.",
 
     technologies: [
       "Python",
       "React",
       "SQLite",
+      "SMTP",
+      "Gmail API",
     ],
 
     image: "/projects/project3.png",

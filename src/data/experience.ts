@@ -2,31 +2,26 @@ import type { Experience } from "../types";
 
 export const EXPERIENCES: Experience[] = [
   {
-    company: "Freelance",
-    role: "AI-Assisted Full-Stack Developer",
-    duration: "2024 – Present",
+    company: "Independent",
+    role: "Full-Stack Developer",
+    duration: "2014 – Present",
     description:
-      "Building modern web applications, automation tools, AI-powered solutions, and business websites using React, TypeScript, Node.js, Python, and Tailwind CSS.",
+      "Designing and developing modern web applications, business software, automation tools, and responsive websites using React, TypeScript, JavaScript, Node.js, Express.js, Tailwind CSS, REST APIs, and modern AI-assisted development workflows. Focused on building scalable, user-friendly, and high-performance software solutions for businesses.",
   },
+
   {
-    company: "Sire Tech Software Services Pvt. Ltd.",
-    role: "Technical Sales & Marketing Manager",
-    duration: "2018 – 2024",
+    company: "Convergys India",
+    role: "Customer Support Associate – Citibank NRI Process (USA)",
+    duration: "2012 – 2014",
     description:
-      "Managed international clients, generated business, and coordinated technical solutions for customers in the USA market.",
+      "Provided customer support for Citibank NRI customers in the USA. Assisted customers with account-related inquiries, banking services, issue resolution, and maintained high customer satisfaction while following international service standards.",
   },
-  {
-    company: "Tech Live Connect",
-    role: "Senior Professional Sales Executive",
-    duration: "2014 – 2018",
-    description:
-      "Provided technical sales support and customer relationship management for international clients.",
-  },
+
   {
     company: "IBM Daksh",
-    role: "Sales Professional",
-    duration: "2010 – 2014",
+    role: "QuickBooks Technical Support Executive",
+    duration: "2010 – 2012",
     description:
-      "Handled sales and customer support for Canada and Australia markets while maintaining high customer satisfaction.",
+      "Provided technical support for Intuit QuickBooks customers across Canada and Australia. Assisted users with QuickBooks installation, configuration, troubleshooting, payroll, company file issues, and product-related guidance while delivering excellent customer service.",
   },
 ];

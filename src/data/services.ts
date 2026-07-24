@@ -1,35 +1,52 @@
 import {
-  SiReact,
-  SiNodedotjs,
-  SiPython,
-  SiGoogleads,
-} from "react-icons/si";
+  FaCode,
+  FaLaptopCode,
+  FaServer,
+  FaMobileAlt,
+  FaRobot,
+  FaTools,
+} from "react-icons/fa";
 
-import type { Service } from "../types";
+export const SERVICES = [
+  {
+    title: "Full-Stack Web Development",
+    icon: FaCode,
+    description:
+      "Building scalable, responsive, and modern web applications using React, TypeScript, Node.js, Express.js, and REST APIs.",
+  },
 
-export const SERVICES: Service[] = [
   {
     title: "Frontend Development",
+    icon: FaLaptopCode,
     description:
-      "Responsive, fast and modern web applications built with React, TypeScript and Tailwind CSS.",
-    icon: SiReact,
+      "Creating fast, responsive, and accessible user interfaces with React, Tailwind CSS, TypeScript, and modern UI libraries.",
   },
+
   {
     title: "Backend Development",
+    icon: FaServer,
     description:
-      "REST APIs, authentication, databases and scalable server-side applications.",
-    icon: SiNodedotjs,
+      "Developing secure backend services, REST APIs, authentication systems, and database-driven applications.",
   },
+
   {
-    title: "Automation & AI",
+    title: "Responsive Website Design",
+    icon: FaMobileAlt,
     description:
-      "Python automation tools, AI integrations and workflow optimization for businesses.",
-    icon: SiPython,
+      "Designing mobile-first, SEO-friendly websites that deliver a consistent experience across all devices.",
   },
+
   {
-    title: "Digital Marketing",
+    title: "AI-Assisted Development",
+    icon: FaRobot,
     description:
-      "Google Ads, SEO, landing pages and conversion-focused marketing solutions.",
-    icon: SiGoogleads,
+      "Leveraging AI-assisted workflows to improve productivity, automate repetitive tasks, and accelerate software development.",
+  },
+
+  {
+    title: "Software Maintenance & Support",
+    icon: FaTools,
+    description:
+      "Providing application maintenance, performance optimization, bug fixing, feature enhancements, and technical support.",
   },
 ];

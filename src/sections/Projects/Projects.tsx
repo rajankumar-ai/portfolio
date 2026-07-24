@@ -15,15 +15,15 @@ function Projects() {
       <Container>
         <SectionHeading
           title="Featured Projects"
-          subtitle="Some of my recent work."
+          subtitle="A selection of software applications, business platforms, and web solutions demonstrating my experience in full-stack development."
         />
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
           {PROJECTS.map((project, index) => (
             <MotionSection
               key={project.title}
               variants={fadeUp}
-              delay={index * 0.1}
+              delay={index * 0.12}
             >
               <ProjectCard {...project} />
             </MotionSection>

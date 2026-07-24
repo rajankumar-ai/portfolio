@@ -1,53 +1,72 @@
 import {
-  SiReact,
-  SiTypescript,
-  SiJavascript,
-  SiNodedotjs,
-  SiPython,
-  SiTailwindcss,
-  SiGit,
-  SiGithub,
-} from "react-icons/si";
+  FaReact,
+  FaServer,
+  FaDatabase,
+  FaTools,
+  FaRobot,
+} from "react-icons/fa";
 
 export const SKILLS = [
   {
-    name: "React",
-    level: "Advanced",
-    icon: SiReact,
+    title: "Frontend Development",
+    icon: FaReact,
+    skills: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Responsive Design",
+    ],
   },
+
   {
-    name: "TypeScript",
-    level: "Advanced",
-    icon: SiTypescript,
+    title: "Backend Development",
+    icon: FaServer,
+    skills: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "Authentication",
+      "API Integration",
+    ],
   },
+
   {
-    name: "JavaScript",
-    level: "Advanced",
-    icon: SiJavascript,
+    title: "Databases",
+    icon: FaDatabase,
+    skills: [
+      "MongoDB",
+      "MySQL",
+    ],
   },
+
   {
-    name: "Node.js",
-    level: "Advanced",
-    icon: SiNodedotjs,
+    title: "Tools & Platforms",
+    icon: FaTools,
+    skills: [
+      "Git",
+      "GitHub",
+      "Postman",
+      "Vite",
+      "Netlify",
+      "Vercel",
+      "VS Code",
+    ],
   },
+
   {
-    name: "Python",
-    level: "Intermediate",
-    icon: SiPython,
-  },
-  {
-    name: "Tailwind CSS",
-    level: "Advanced",
-    icon: SiTailwindcss,
-  },
-  {
-    name: "Git",
-    level: "Advanced",
-    icon: SiGit,
-  },
-  {
-    name: "GitHub",
-    level: "Advanced",
-    icon: SiGithub,
+    title: "AI-Assisted Development",
+    icon: FaRobot,
+    skills: [
+      "ChatGPT",
+      "OpenAI API",
+      "Prompt Engineering",
+      "AI-assisted Debugging",
+      "AI-assisted Code Generation",
+      "Automation Workflows",
+    ],
   },
 ];

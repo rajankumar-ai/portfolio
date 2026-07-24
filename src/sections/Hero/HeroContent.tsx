@@ -15,7 +15,7 @@ function HeroContent() {
         {SITE_CONFIG.hero.name}
       </h2>
 
-      <h1 className="mt-2 text-5xl font-extrabold leading-tight text-white lg:text-7xl">
+      <h1 className="mt-2 text-5xl font-extrabold leading-tight text-white lg:text-5xl">
         {SITE_CONFIG.hero.role}
       </h1>
 

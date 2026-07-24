@@ -4,7 +4,7 @@ import MotionSection from "../../components/motion/MotionSection";
 import { fadeUp } from "../../animations/fade";
 
 import { SKILLS } from "../../data/skills";
-import SkillCard from "./SkillCard";
+import SkillCategory from "./SkillCategory";
 
 function Skills() {
   return (
@@ -15,20 +15,20 @@ function Skills() {
       <Container>
         <SectionHeading
           title="Skills & Technologies"
-          subtitle="Technologies I use to build fast, scalable and modern applications."
+          subtitle="Modern technologies, frameworks, databases, and development tools I use to build scalable software solutions."
         />
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {SKILLS.map((skill, index) => (
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {SKILLS.map((category, index) => (
             <MotionSection
-              key={skill.name}
+              key={category.title}
               variants={fadeUp}
               delay={index * 0.08}
             >
-              <SkillCard
-                title={skill.name}
-                level={skill.level}
-                Icon={skill.icon}
+              <SkillCategory
+                title={category.title}
+                skills={category.skills}
+                Icon={category.icon}
               />
             </MotionSection>
           ))}
