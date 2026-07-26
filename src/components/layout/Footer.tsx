@@ -25,7 +25,7 @@ function Footer() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+            href="https://www.linkedin.com/in/rajankumar-ai"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -35,7 +35,7 @@ function Footer() {
           </a>
 
           <a
-            href="mailto:your@email.com"
+            href="mailto:andtoroboss@gmail.com"
             aria-label="Email"
             className="text-white transition-all duration-300 hover:scale-110 hover:text-blue-400"
           >

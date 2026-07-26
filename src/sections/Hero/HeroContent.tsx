@@ -24,26 +24,35 @@ function HeroContent() {
       </p>
 
       <div className="mt-10 flex flex-wrap gap-4">
-        <Button
-          onClick={() =>
-            document
-              .getElementById("contact")
-              ?.scrollIntoView({
-                behavior: "smooth",
-              })
-          }
-        >
-          Hire Me
-        </Button>
+  <Button
+    href="https://pixelmedia.space"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    🚀 Visit Pixel Media
+  </Button>
 
-        <Button
-          variant="secondary"
-          href="/resume.pdf"
-          download
-        >
-          Download CV
-        </Button>
-      </div>
+  <Button
+    variant="secondary"
+    href="/profile.pdf"
+    download
+  >
+    📄 Download
+  </Button>
+
+  <Button
+    variant="secondary"
+    onClick={() =>
+      document
+        .getElementById("contact")
+        ?.scrollIntoView({
+          behavior: "smooth",
+        })
+    }
+  >
+    💬 Reach Me
+  </Button>
+</div>
 
       <TechBadges />
     </MotionSection>

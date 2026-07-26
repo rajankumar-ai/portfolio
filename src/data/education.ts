@@ -1,5 +1,11 @@
 export const EDUCATION = [
   {
+    degree: "Software Engineer Certification",
+    institution: "HackerRank",
+    description:
+      "Successfully passed the HackerRank Software Engineer role certification, demonstrating proficiency in software engineering fundamentals, problem-solving, coding practices, and modern software development skills.",
+  },
+  {
     degree: "Bachelor of Commerce (B.Com.)",
     institution: "IASE Deemed University",
     description:

@@ -31,10 +31,10 @@ function Navbar() {
           <div className="hidden items-center gap-4 lg:flex">
             <Button
               variant="secondary"
-              href="/resume.pdf"
+              href="/profile.pdf"
               download
             >
-              Download CV
+              Download
             </Button>
 
             <Button
@@ -46,7 +46,7 @@ function Navbar() {
                   })
               }
             >
-              Hire Me
+              Reach Me
             </Button>
           </div>
 

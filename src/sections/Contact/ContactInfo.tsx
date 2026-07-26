@@ -26,7 +26,7 @@ function ContactInfo() {
           <div>
             <p className="text-sm text-slate-400">Email</p>
             <p className="text-white">
-              your@email.com
+              andtoroboss@gmail.com
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ function ContactInfo() {
 
       <div className="mt-10 flex gap-4">
         <a
-          href="https://github.com/YOUR_GITHUB_USERNAME"
+          href="https://github.com/rajankumar-ai"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-lg border border-slate-700 p-3 text-white transition hover:border-blue-500 hover:text-blue-400"

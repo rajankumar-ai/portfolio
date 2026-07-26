@@ -33,7 +33,7 @@ export const SITE_CONFIG = {
 
   portfolio: "https://rajankumar.space",
 
-  resume: "/resume.pdf",
+  profile: "/profile.pdf",
 
   navigation: [
     { label: "Home", href: "#home" },

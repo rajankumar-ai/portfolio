@@ -46,10 +46,10 @@ function MobileMenu({
             <div className="mt-8 flex flex-col gap-4">
               <Button
                 variant="secondary"
-                href="/resume.pdf"
+                href="/profile.pdf"
                 download
                 >
-                Download CV
+                Download
                 </Button>
 
               <Button
@@ -61,7 +61,7 @@ function MobileMenu({
                     })
                 }
                 >
-                Hire Me
+                Reach Me
                 </Button>
             </div>
           </div>

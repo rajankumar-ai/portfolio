@@ -1,9 +1,9 @@
 export const PROJECTS = [
   {
-    title: "Developer Portfolio",
+    title: "Pixel Media Website",
 
     description:
-      "A modern, responsive portfolio website showcasing professional experience, technical skills, and projects. Built with React, TypeScript, Tailwind CSS, Framer Motion, and optimized for performance and recruiter-friendly presentation.",
+      "PIXELMEDIA helps ambitious Dubai, UAE, and global brands generate premium leads, scalable revenue, and measurable ROI through elite Google Ads, Meta advertising, SEO, and conversion-focused growth systems.",
 
     technologies: [
       "React",
@@ -12,17 +12,18 @@ export const PROJECTS = [
       "Tailwind CSS",
       "Framer Motion",
       "Netlify",
+      "html",
     ],
 
-    image: "/projects/project1.png",
+    image: "/project1.png",
 
-    github: "https://github.com/rajankumar-ai/portfolio",
+    github: "https://github.com/rajankumar-ai/pixelmedia-website.git",
 
-    live: "#",
+    live: "https://pixelmedia.space/",
   },
 
   {
-    title: "Pixel Root Store",
+    title: "Coming Soon",
 
     description:
       "Business website providing digital marketing, website development, software development, branding, and IT solutions with a modern responsive interface.",
@@ -34,7 +35,7 @@ export const PROJECTS = [
       "Tailwind CSS",
     ],
 
-    image: "/projects/project2.png",
+    image: "/project2.png",
 
     github: "#",
 
@@ -42,10 +43,10 @@ export const PROJECTS = [
   },
 
   {
-    title: "Bulk Email Automation System",
+    title: "Coming soon",
 
     description:
-      "Desktop application for managing high-volume email campaigns with SMTP rotation, Gmail API integration, scheduling, personalization, and campaign management.",
+      "Desktop application for managing high-volume  campaigns with rotation, integration, scheduling, personalization, and campaign management.",
 
     technologies: [
       "Python",
@@ -55,7 +56,7 @@ export const PROJECTS = [
       "Gmail API",
     ],
 
-    image: "/projects/project3.png",
+    image: "/project2.png",
 
     github: "#",
 
